@@ -1,5 +1,5 @@
 
-name=freecoll
+name=template
 
 $(name).pdf : $(name).tex $(name).bib figs/
 	(cd figs; make)
